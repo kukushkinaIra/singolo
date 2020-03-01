@@ -1,0 +1,180 @@
+body{
+    margin: 17px;
+    margin-top: 27px;
+}
+
+.header{
+    width: 1020px;
+    height: 89px;
+    background-color: #2b2f3b;
+    border-bottom: 6px solid #323746;
+    font-family: "Lato";
+    line-height: 80px;
+    font-weight: 700;
+}
+.header .logo {
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    padding-left: 40px;
+    letter-spacing: normal;
+    float: left;
+    font-family: "Lato";
+    font-weight: 550;
+    margin-top: 40px;
+    letter-spacing: -0.4px;
+  }
+   
+
+  nav {
+    font-family: "Lato";
+    float: right;
+    font-size: 12px;
+    line-height: 6px;
+    color: #f06c64;
+    padding-right: 27px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    letter-spacing: -0.4px;
+    padding-right: 9px;
+    margin-right: 12px;
+
+}
+  
+  ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+ul li:hover{
+    color:rgb(204, 74, 74);
+}
+
+ul li a:hover{
+    color:rgb(201, 47, 47);
+}
+
+ul li a {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.slider{
+    height: 600px;
+    width: 1020px;
+    background-color: #f06c64;
+    position: relative;
+}
+
+.vertical_phone{
+    float: left;
+    margin-top: -17px;
+    padding-left: 109px;
+}
+
+.horiz_phone{
+    float: right;
+    margin-top: -493px;
+    padding-right: 81px;
+}
+
+.arrow{
+    position: absolute;
+}
+
+.left_arrow{
+    float: right;
+    margin-left: 954px;
+    margin-top: 282px;
+}
+
+.right_arrow{
+    float: left;
+    margin-top: 282px;
+}
+
+.services_grid{
+    display: grid;
+    grid-template-columns: 315px 323px 315px;
+    grid-template-rows: repeat(3, 130px);
+
+}
+
+.services_grid img{
+    float: left;
+    border: 2px solid #666d89;
+    border-radius:50%;
+    border-radius:200px;
+    margin-top: 23px;
+    padding: 3%;
+}
+.services .services_grid img:hover {
+    cursor: pointer;
+  }
+  
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+.services_text{
+    width: 1020px;
+    height: 218px;
+}
+
+.services_text h2{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-left: 42px;
+    padding-top: 67px;
+}
+
+.text{
+    width: 940px;
+    padding-left: 42px;
+    padding-top: 3px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+}
+.services{
+    background-color: #f2f2f2;
+    width: 1020px;
+    height: 498px;
+    margin-top: -24px;
+}
+.custom_design img{
+    margin-left: 43px;
+    margin-top: 3px;
+}
+.wrap h3{
+    margin-left: 20px;
+    margin-top: 1px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.serv_txt{
+    margin-top: -9px;
+    margin-left: 21px;
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
