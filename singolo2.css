@@ -1,0 +1,183 @@
+html, body {
+    margin-top: 0;
+    margin-left: 0;
+  }
+.header{
+    width: 1020px;
+    height: 871px;
+    background: #2d303a;
+}  
+.header_text{
+    text-align: left;
+    font-family: "Lato";
+    padding-top: 41px;
+    padding-left: 39px;
+}
+.header_text h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.header_text p{
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    padding-top: 8px;
+}
+.header nav{
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+.header .header_text nav ul{
+    margin-top: -34px;
+    margin-left: -37px;
+    padding-bottom: 7px;
+}
+.header .header_text nav ul li {
+    display: inline-block;
+    border-radius: 15%;
+    border: 1px solid #666d89;
+    padding: 0 5px;
+}
+  .header nav ul li a {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: #767e9e;
+    text-decoration: none;
+  }
+  .header .image{
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    grid-template-rows: repeat(3, 185px);
+    grid-row-gap: 23px;
+    grid-column-gap: 20px;
+    gap: 20px;
+    overflow: hidden;
+    max-height: 670px;
+    padding-left: 40px;
+    width: 942px; 
+}
+.header img {
+    width: 220px;
+    height: 185px;
+  }
+.img_1 {
+    background-position: 36% 22%;
+  }
+  
+  .img_2 {
+    background-position: 57% 50%;
+  }
+  
+ .img_3 {
+    background-position: 36% 2%;
+  }
+   .img_4 {
+    background-position: 55% 22%;
+  }
+  
+  .img_5 {
+    background-position: 41% 18%;
+  }
+  .img_6 {
+    background-position: 42% 43%;
+  }
+  .img_7 {
+    background-position: 20% 22%;
+  }
+ .img_8 {
+    background-position: 42% 36%;
+  }
+  
+  .img_9 {
+    background-position: 48% 56%;
+  }
+  
+  .img_10 {
+    background-position: 56% 24%;
+  }
+  
+  .img_11 {
+    background-position: 74% 78%;
+  }
+  
+  .img_12 {
+    background-position: 49% 26%;
+  }
+  .about_us{
+    width: 1020px;
+    height: 664px;
+    margin-top: -1px;
+    padding-top: 58px;
+    background-color: #f2f2f2;
+  }
+  .about_us .text{
+    margin-top: -28px;
+    padding-top: 2px;
+  }
+  .about_us .text h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 9px;
+    padding-left: 42px;
+  }
+  .about_us .text p{
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 7px;
+  }
+  .about_us_1{
+    display: grid;
+    grid-template-columns: repeat(3, 299px);
+    grid-template-rows: 303px 127px;
+    padding-top: 29px;
+    padding-left: 40px;
+    grid-column-gap: 20px;
+  }
+  .about_us_1 h3{
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-top: 14px;
+  }
+ .about_us_1 p{
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin-top: -7px;
+}
+.about_us .social_media{
+    margin-top: -122px;
+    letter-spacing: 2px;
+}

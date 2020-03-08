@@ -87,12 +87,16 @@ ul li a {
 .left_arrow{
     float: right;
     margin-left: 954px;
-    margin-top: 282px;
+    margin-top: -31px;
+    padding-right: 39px;
 }
 
 .right_arrow{
     float: left;
-    margin-top: 282px;
+    margin-top: -29px;
+    margin-right: 40px;
+    padding-top: 308px;
+    padding-left: 41px;
 }
 
 .services_grid{
@@ -106,7 +110,6 @@ ul li a {
     float: left;
     border: 2px solid #666d89;
     border-radius:50%;
-    border-radius:200px;
     margin-top: 23px;
     padding: 3%;
 }
@@ -178,3 +181,8 @@ ul li a {
     font-weight: 400;
     text-align: left;
 }
+.services_grid .idea {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
