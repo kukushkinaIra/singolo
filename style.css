@@ -1,0 +1,17 @@
+@import "singolo1.css";
+@import "singolo2.css";
+@import "singolo3.css";
+.slider{
+    margin-top: -783px;
+}
+.about_us_1{
+    margin-top: 87px;
+}
+.about_us .text{
+    margin-left: -43px;
+}
+.header .header_text nav ul{
+    padding-right: 598px;
+    margin-top: -62px;
+    
+}
