@@ -101,7 +101,7 @@ body {
     margin-left: 19px;
     letter-spacing: -0.1px;
   }
-  .contact_info textarea .area {
+  .contact_info .area {
     color: #f0d8d9;
   }
   .contact_info input {
